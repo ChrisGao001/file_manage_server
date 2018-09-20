@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>Hello from flask</title>
+<table>
+{% for item in items %}
+<tr>
+<td><a href="uploads/{{item}}">{{item}}</a></td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
